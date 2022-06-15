@@ -1,0 +1,154 @@
+.left, .center{
+    float: left;
+    margin: 0 1.5%;
+
+}
+
+/*hide div on all screens with 700 and lower width*/
+@media only screen and (max-width: 1200px) {
+    .standardControlls {
+        display:none;
+    }
+
+    .left{
+        width: 15%;
+        height: 70vh;
+    }
+
+    .center{
+        width: 78%;
+        height: 75vh;
+    }
+}
+
+/*hide div on all screens with 700 and higher width*/
+@media only screen and (min-width: 1200px) {
+    .mobileControlls{
+        display:none;
+    }
+
+    .left{
+        width: 15%;
+        height: 90vh;
+    }
+
+    .center{
+        width: 78%;
+        height: 80vh;
+    }
+}
+
+.explanation{
+    position: absolute;
+    bottom: 0%;
+}
+
+.heading{
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 100%;
+}
+
+.built-by-note{
+    font-size: 100%;
+    margin: 0 1.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+div.scrollmenu {
+    height: 70px;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+/*!* Hide scrollbar for Chrome, Safari and Opera *!*/
+/*div.scrollmenu::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+
+/*!* Hide scrollbar for IE, Edge and Firefox *!*/
+/*div.scrollmenus {*/
+/*    -ms-overflow-style: none;  !* IE and Edge *!*/
+/*    scrollbar-width: none;  !* Firefox *!*/
+/*}*/
+
+.elements-box-mobile{
+    display: inline-block;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+
+.controlls-box-mobile{
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.elements-box{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.center-elements{
+    text-align:center;
+}
+
+.controll-line{
+    display: inline;
+}
+
+.border-left {
+    border-left: 2px solid black;
+}
+
+.border-right {
+    border-rigth: 2px solid black;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.frame-around-balls{
+    border: 5px solid green;
+    padding: 2px;
+    border-radius:5px;
+
+    border-style: dotted;
+}
+
+.frame-around-gates{
+    border: 5px solid mediumpurple;
+    padding: 2px;
+    border-radius:5px;
+}
+
+.frame-around-misty{
+    border: 5px solid dodgerblue;
+    padding: 2px;
+    border-radius:5px;
+}
+
+.tool-tips{
+    position: absolute;
+    bottom: 100px;
+    width: 17%;
+    height: 50px;
+    word-wrap: normal;
+}

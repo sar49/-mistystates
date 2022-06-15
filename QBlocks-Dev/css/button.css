@@ -1,0 +1,322 @@
+:root {
+	--small-dimension:  10vw;
+	--large-dimension: 6vw;
+}
+
+.button-1x1-round, .button-2x1, .button-2x2, .button-2x2-small-screen, .button-1-5x1, .button-1x1, .button-2-5x1{
+	display: inline-block;
+	color:#FFF;
+	text-align: center;
+	font-weight: bold;
+	box-shadow: 2px 2px 3px #999;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.vertical-spacer{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+	width:2px;
+	height:60px;
+	border-left: 2px solid black;
+}
+
+.button-1x1-round{
+	width:60px;
+	height:60px;
+	line-height: 85px;
+	border-radius:50%;
+	font-size: 13px;
+}
+
+.button-1x1{
+	width:60px;
+	height:60px;
+	line-height: 60px;
+	border-radius:5%;
+	font-size: 15px;
+}
+
+.button-1-5x1{
+	width:100px;
+	height:60px;
+	line-height: 60px;
+	border-radius:5%;
+	font-size: 15px;
+}
+
+.button-2x1{
+	width:140px;
+	height:60px;
+	line-height: 60px;
+	border-radius:5%;
+	font-size: 15px;
+}
+
+.button-2-5x1{
+	width:160px;
+	height:60px;
+	line-height: 60px;
+	border-radius:5%;
+	font-size: 15px;
+}
+
+.button-2x2{
+	width:140px;
+	height:140px;
+	line-height: 140px;
+	border-radius:5%;
+	font-size: 15px;
+}
+
+.button-2x2-small-screen{
+	width: 90vw;
+	height: 4vh;
+	line-height: 4vh;
+	border-radius:2%;
+	font-size: 15px;
+}
+
+/*original height was 60px*/
+.button-img{
+	width: auto;
+	display: inline-block;
+	height: 63px;
+	padding: 5px 5px 5px 5px;
+}
+
+.button-img-mobile{
+	display: inline-block;
+	width: auto;
+	height: 60px;
+	padding: 0px 5px 5px 5px;
+}
+
+.icon {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+}
+
+.icon-button{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.button-img:hover{
+	opacity: 0.7;
+}
+
+.black-ball{
+  background-color:black;
+}
+
+.black-ball:hover{
+  background-color:#2A2A2A;
+}
+
+.white-ball{
+  background-color: white;
+  color: black;
+}
+
+.white-ball:hover{
+  	background-color: #F5F5F5;
+	text-decoration: none;
+	color: black;
+}
+
+.red{
+	background-color:#f43420;
+	color: black;
+}
+
+.red:hover {
+  	background-color: #EE220C;
+	text-decoration: none;
+	color: black;
+}
+
+.green{
+  	background-color: #7cfc00;
+  	color: black;
+}
+
+.green:hover{
+  	background-color: limegreen;
+	text-decoration: none;
+	color: black;
+}
+
+.orange{
+	background-color: orange;
+	color: black;
+}
+
+.orange:hover{
+	background-color: darkorange;
+	text-decoration: none;
+	color: black;
+}
+
+.blue{
+	background-color: lightblue;
+	color: black;
+}
+
+.blue:hover{
+	background-color: lightskyblue;
+	text-decoration: none;
+	color: black;
+}
+
+.gray{
+	background-color: lightgray;
+	color: black;
+}
+
+.gray:hover{
+	background-color: darkgray;
+	text-decoration: none;
+	color: black;
+}
+
+
+/*##############################################*/
+/*################# Margins ####################*/
+/*##############################################*/
+
+.space-top{
+	margin-top: 22px;
+}
+
+.space-bottom{
+	margin-bottom: 10px;
+}
+
+.space-bottom-2x{
+	margin-bottom: 30px;
+}
+
+.left-space{
+	margin-left: 10px !important;
+}
+
+.right-space{
+	margin-right: 10px !important;
+}
+
+/*##############################################*/
+/*################# Check box ##################*/
+/*##############################################*/
+
+/* Hide the browser's default checkbox */
+.checkbox_container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.hand-mouse {
+	cursor: pointer;
+}
+
+/*hide div on all screens with 700 and higher width*/
+@media only screen and (min-width: 1200px) {
+	/* The container */
+	.checkbox_container {
+		display: inline-block;
+		position: relative;
+		padding-left: 35px;
+		font-size: 16px;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	/* Create a custom checkbox */
+	.checkmark {
+		position: absolute;
+		left: 0;
+		height: 25px;
+		width: 25px;
+		border-radius: 20%;
+		border: 1px solid black;
+		/*background-color: #ccc;*/
+	}
+}
+
+/*hide div on all screens with 700 and lower width*/
+@media only screen and (max-width: 1200px) {
+	/* The container */
+	.checkbox_container {
+		display: inline-block;
+		position: relative;
+		padding-left: 35px;
+		font-size: 16px;
+
+		vertical-align: middle;
+		line-height: 60px;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	/* Create a custom checkbox */
+	.checkmark {
+		position: absolute;
+		margin-top: 18px;
+		left: 0;
+		height: 25px;
+		width: 25px;
+		border: 1px solid black;
+		border-radius: 20%;
+		/*background-color: #ccc;*/
+	}
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox_container:hover input ~ .checkmark {
+	background-color: #aaa;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox_container input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox_container input:checked ~ .checkmark:after {
+	display: inline-block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox_container .checkmark:after {
+	left: 7px;
+	top: 2px;
+	width: 8px;
+	height: 14px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(41deg);
+	-ms-transform: rotate(41deg);
+	transform: rotate(41deg);
+}

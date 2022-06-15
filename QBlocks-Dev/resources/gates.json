@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Not Gate",
+    "title": "Not Gate",
+    "description": "Inverts the input of the gate."
+  },
+  {
+    "name": "CNot Gate",
+    "title": "CNot Gate",
+    "description": "Inverts the input of the gate when the control is activated."
+  },
+  {
+    "name": "Swap Gate",
+    "title": "Swap Gate",
+    "description": "Swaps the two inputs of the gate."
+  },
+  {
+    "name": "CSwap Gate",
+    "title": "CSwap Gate",
+    "description": "Swaps the two inputs of the gate when the control is activated."
+  },
+  {
+    "name": "CCSwap Gate",
+    "title": "CCSwap Gate",
+    "description": "Swaps the two inputs of the gate when the controls are activated."
+  },
+  {
+    "name": "Pipe Gate",
+    "title": "Pipe Gate",
+    "description": "Moves the input down one block."
+  },
+  {
+    "name": "Pete Gate",
+    "title": "Pete Gate",
+    "description": "Hadamard gate. Outputs either random ball or misty clouds."
+  },
+  {
+    "name": "Black Gate",
+    "title": "Black Ball",
+    "description": "Black ball which represents 1."
+  },
+  {
+    "name": "White Gate",
+    "title": "White Ball",
+    "description": "White ball which represents 0."
+  },
+  {
+    "name": "WB Mist",
+    "title": "White/Back Mist",
+    "description": "Constructive Misty State."
+  },
+  {
+    "name": "WNB Mist",
+    "title": "White/-Back Mist",
+    "description": "Destructive Misty State."
+  },
+  {
+    "name": "Tutorials",
+    "title": "Tutorials",
+    "description": "Watch tutorials on how the canvas works and learn more about quantum computing."
+  },
+  {
+    "name": "Go Back",
+    "title": "Undo",
+    "description": "Undoes the last step."
+  },
+  {
+    "name": "Run",
+    "title": "Run",
+    "description": "Runs the next step."
+  },
+  {
+    "name": "Forward",
+    "title": "Run All",
+    "description": "Runs all steps."
+  },
+  {
+    "name": "Remove Output",
+    "title": "Clear Output",
+    "description": "Removes the balls and mists that were created during runtime."
+  },
+  {
+    "name": "Remove All Balls",
+    "title": "Clear All Balls",
+    "description": "Removes all balls and mists on the canvas."
+  },
+  {
+    "name": "Clear Canvas",
+    "title": "Clear Canvas",
+    "description": "Clears the canvas of all balls, mists, and gates."
+  },
+  {
+    "name": "Hide output",
+    "title": "Hide output",
+    "description": "Hides the generated output behind a blue square."
+  },
+  {
+    "name": "Tool-Tips",
+    "title": "",
+    "description": "Hover over a gate for more information."
+  }
+]
